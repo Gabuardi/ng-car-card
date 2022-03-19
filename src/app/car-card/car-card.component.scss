@@ -1,7 +1,16 @@
 .car-card {
-  width: 350px;
+  box-sizing: border-box;
+  width: 400px;
   height: 400px;
-  border-radius: 20px;
+  padding: 25px;
+  border-radius: 10px;
   background-color: #252525;
   box-shadow: 0 0 27px 5px #9D9D9D;
+
+  .card-picture {
+    width: 100%;
+    height: 220px;
+    border-radius: 5px;
+    background-color: orange;
+  }
 }
